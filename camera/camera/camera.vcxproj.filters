@@ -23,5 +23,8 @@
     <ClInclude Include="head.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="cameracalib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
