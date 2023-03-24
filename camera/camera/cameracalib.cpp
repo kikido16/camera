@@ -13,7 +13,10 @@ CameraCalib::CameraCalib()
 	DistCoeffs = Mat::zeros(7, 1, CV_64F);
 	ReproError = 0;
 }
+CameraCalib::CameraCalib(vector<Mat>& calibImgs, Size cameraResolution)
+{
 
+}
 CameraCalib::~CameraCalib()
 {
 
