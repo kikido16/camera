@@ -12,6 +12,7 @@
 
 
 #define pi acos(-1)
+#define KERNEL_SUM 8
 
 
 typedef int8_t			sint8;		// 有符号8位整数
@@ -24,14 +25,14 @@ typedef int64_t			sint64;		// 有符号64位整数
 typedef uint64_t		uint64;		// 无符号64位整数
 
 /** \brief cvMat
-	CV_8U	8位无符号整数
-	CV_8S	8位有符号整数
-	CV_16U	16位无符号整数
-	CV_16S	16位有符号整数
-	CV_32U	32位无符号整数
-	CV_32S	32位有符号整数
-	CV_32F	32位浮点数
-	CV_64F	64位浮点数
+	CV_8U	8位无符号整数			uchar
+	CV_8S	8位有符号整数			char
+	CV_16U	16位无符号整数			ushort
+	CV_16S	16位有符号整数			short
+	CV_32U	32位无符号整数			uint
+	CV_32S	32位有符号整数			int
+	CV_32F	32位浮点数				float
+	CV_64F	64位浮点数				double
 */
 
 using namespace std;
